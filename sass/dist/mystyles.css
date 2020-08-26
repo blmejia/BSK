@@ -5015,7 +5015,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   flex-shrink: 0;
 }
 .navbar-item img {
-  max-height: 1.75rem;
+  max-height: 3.25rem;
 }
 .navbar-item.has-dropdown {
   padding: 0;
@@ -9032,4 +9032,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
+}
+
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
 }
