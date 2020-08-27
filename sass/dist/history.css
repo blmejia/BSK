@@ -9034,16 +9034,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
-.breadcrumb {
-  margin: 5%;
+.history .content {
+  margin: 10%;
 }
-.breadcrumb ul li {
-  color: red;
+.history .content img {
+  height: 256px;
+  width: 100%;
+  margin-bottom: 10%;
 }
-.breadcrumb ul li .is-active {
-  font-weight: lighter;
-  color: #dbdbdb;
-}
-.breadcrumb .is-active {
-  color: #D0D1CD;
+.history .content .subtitle {
+  margin-bottom: 10%;
 }

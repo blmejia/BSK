@@ -12,23 +12,88 @@
   <body>
 
     <!--MOBILE-->
-    <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li class="is-active"><a href="#" aria-current="page">History</a></li>
-          <li><a href="#">Media</a></li>
-        </ul>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/index.html">
+            <img src="img/CrestBlack.png" >
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+              Home
+            </a>
+      
+            <a class="navbar-item" href="/about.html">
+              About BΣK
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                    History
+                  </a>
+                <a class="navbar-item">
+                  Media
+                </a>
+                <a class="navbar-item">
+                    <button class="button is-info is-rounded is-small">Contact</button>
+                </a>
+               
+              </div>
+            </div>
+          </div>       
+        </div>
       </nav>
+
+    
       
       <div class="spacer">
         <br>
         <br>
     </div>
 
- 
-    
+    <section class="history">
+        <div class="content">
+            <p class="title">History</p>
+            <img src="/img/collage.jpg" alt="">
+            <p class="subtitle">
+                
+                ΒΣΚ
+        In 1997, several men came together in hopes to join a fraternal organization at the University at Buffalo. 
+
+            </p>
+            <p class="subtitle">
+                Therefore, they decided to establish an organization that would represent African and Latino men. When these men decided to form this organization, a few individuals realized it would not be possible.
+            </p>
+            <p class="subtitle">
+                However, there was a smaller group among them who believed that a fraternal organization still needed to be established. The organization would represent this smaller group and their goals.
+            </p>
+            <img src="img/founders.JPG" alt="">
+            <p class="subtitle">
+                After a period of intensive research and education, these men decided to form Beta Sigma Kappa Fraternity. This fraternity would serve as a "Brotherhood of Strength and Knowledge".
+            </p>
+            
+            <p class="subtitle">
+                Young men would be assisted by the fraternity in education and the strengthening of themselves. The Founding fathers began the process of establishing Beta Sigma Kappa Fraternity, Incorporated at the University at Buffalo during the Spring of 1998. Although, there were numerous obstacles in their path, these men never lost sight of their goal. On March 16, 1998 the Brotherhood of Beta Sigma Kappa Fraternity Incorporated was officially established at the University at Buffalo.
+            </p>
+            <img src="/img/22years.jpg" alt="">
+        </div>
     </section>
+
+   
+    
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
         AOS.init();
