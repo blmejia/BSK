@@ -6921,6 +6921,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-.navbar .navbar-brand {
-  display: flex;
-  align-items: center; }
+.navbar {
+  margin-bottom: 0; }
+  .navbar .navbar-brand {
+    display: flex;
+    align-items: center; }
+
+.bg {
+  background-color: red;
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/oz.jpg");
+  background-position: left 0px top 60px; }
