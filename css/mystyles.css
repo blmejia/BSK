@@ -6954,3 +6954,23 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     margin: 5%;
     text-align: center;
     font-size: 1.125rem; }
+
+.spotlight {
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 5%;
+  background-color: #212121; }
+  .spotlight .content {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .spotlight .content img {
+      border-radius: 50%;
+      width: 16rem;
+      height: 16rem;
+      margin: 5%;
+      border: 2px solid #fff; }
+    .spotlight .content p {
+      color: #fff; }

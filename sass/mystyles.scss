@@ -81,3 +81,30 @@ $input-shadow: none;
     }
 
 }
+
+///////////////////
+
+.spotlight{
+    display: flex;
+    height: auto;
+    width: auto;
+    margin: 5%;
+    background-color: $deepgrey;
+
+    .content{
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        img{
+            border-radius: 50%;
+            width: 16rem;
+            height: 16rem;
+            margin: 5%;
+            border: 2px solid #fff;
+        }
+        p{
+            color: #fff;
+        }
+    }
+}
