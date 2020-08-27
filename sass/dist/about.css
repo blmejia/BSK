@@ -9047,23 +9047,40 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .logo {
-  height: 70vh;
+  height: 45vh;
   display: flex;
   justify-content: center;
 }
 .logo .content {
   height: auto;
   width: auto;
-  margin: 5%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .logo .content img {
   width: 8rem;
   height: 8rem;
 }
 
-.page-footer footer .content .socials {
-  font-size: 2rem;
+.about {
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 5%;
+}
+.about .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about .content .paragraph {
+  margin: 5%;
+}
+.about .content .paragraph .title {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.about .content .paragraph .subtitle {
+  font-size: 1.125rem;
+  text-align: left;
 }
