@@ -40,7 +40,7 @@ $input-shadow: none;
 }
 
 .bg{
-    background-color: red;
+    //background-color: red;
     height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -48,4 +48,19 @@ $input-shadow: none;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('/img/oz.jpg');
     background-position: left 0px top 60px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+    height: auto;
+    width: auto;
+
+    .subtitle{
+        //margin-top: 5%;
+        text-align: center;
+        font-size: 1.125rem
+    }
 }

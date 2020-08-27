@@ -6928,10 +6928,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     align-items: center; }
 
 .bg {
-  background-color: red;
   height: 80vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/oz.jpg");
   background-position: left 0px top 60px; }
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+  height: auto;
+  width: auto; }
+  .about .subtitle {
+    text-align: center;
+    font-size: 1.125rem; }
