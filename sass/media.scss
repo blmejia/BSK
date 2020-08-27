@@ -27,3 +27,27 @@ $input-shadow: none;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/bulma.sass";
+
+.navbar{
+    margin-bottom: 0;
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+        .navbar-item{
+            img{
+                width: 12.5rem;
+                height: 3.25rem;
+            }
+        }
+    }
+}
+
+.page-footer{
+    footer{
+        .content{
+            .socials{
+                font-size: 2rem;
+            }
+        }
+    }
+}

@@ -9033,3 +9033,19 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
+
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand .navbar-item img {
+  width: 12.5rem;
+  height: 3.25rem;
+}
+
+.page-footer footer .content .socials {
+  font-size: 2rem;
+}

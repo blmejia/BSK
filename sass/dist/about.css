@@ -9084,3 +9084,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-size: 1.125rem;
   text-align: left;
 }
+
+.page-footer footer .content .socials {
+  font-size: 2rem;
+}

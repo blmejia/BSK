@@ -33,6 +33,21 @@ body{
 }
 
 
+
+.navbar{
+    margin-bottom: 0;
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+        .navbar-item{
+            img{
+                width: 12.5rem;
+                height: 3.25rem;
+            }
+        }
+    }
+}
+
 .history{
     .content{
         margin: 10%;
@@ -43,6 +58,16 @@ body{
         }
         .subtitle{
             margin-bottom: 10%;
+        }
+    }
+}
+
+.page-footer{
+    footer{
+        .content{
+            .socials{
+                font-size: 2rem;
+            }
         }
     }
 }

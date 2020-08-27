@@ -12,57 +12,78 @@
   <body>
 
     <!--MOBILE-->
-    <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li class="is-active"><a href="#" aria-current="page">History</a></li>
-          <li><a href="#">Media</a></li>
-        </ul>
-      </nav>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/index.html">
+            <img src="img/CrestBlack.png" >
+          </a>
       
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+              Home
+            </a>
+      
+            <a class="navbar-item" href="/about.html">
+              About BΣK
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/history.html">
+                    History
+                  </a>
+                <a class="navbar-item" >
+                  Media
+                </a>
+                <a class="navbar-item">
+                    <button class="button is-info is-rounded is-small">Contact</button>
+                </a>
+               
+              </div>
+            </div>
+          </div>       
+        </div>
+      </nav>
+
       <div class="spacer">
         <br>
         <br>
     </div>
 
-    <section class="about ">
+
+    <section class="media">
         <div class="content">
-            <div class="paragraph" >
-                <p class="title">Preserving Afro-Latino roots</p>
-            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero quisquam ducimus beatae ipsum vel tempora quos consectetur placeat qui!</p>
-            </div>
             
-      <div class="spacer">
-        <br>
-        <br>
-    </div>
-            <div class="paragraph " >
-                <p class="title has-text-right">Positon in America, and the World</p>
-            <p class="subtitle has-text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero quisquam ducimus beatae ipsum vel tempora quos consectetur placeat qui!</p>
-            </div>
-
-            <div class="spacer">
-                <br>
-                <br>
-            </div>
-            <div class="paragraph" >
-                <p class="title">Why community and Brotherhood</p>
-            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero quisquam ducimus beatae ipsum vel tempora quos consectetur placeat qui!</p>
-            </div>
-
-            <div class="spacer">
-                <br>
-                <br>
-            </div>
-            <div class="paragraph">
-                <p class="title has-text-right">Pipeline to greatness</p>
-            <p class="subtitle has-text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero quisquam ducimus beatae ipsum vel tempora quos consectetur placeat qui!</p>
-            </div>
         </div>
     </section>
 
-    
+
+      <section class="page-footer">
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <img src="img/CrestBlack.png" alt="">
+              <p class="subtitle">
+                Beta Sigma Kappa Afro-Latino Fraternity, Inc. is a city wide chapter with Brothers that attend SUNY Buffalo State College as well as SUNY at Buffalo.
+              </p>
+              <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="far fa-envelope"></i>
+
+              </div>
+            </div>
+          </footer>
     </section>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>

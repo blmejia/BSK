@@ -9034,6 +9034,18 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand .navbar-item img {
+  width: 12.5rem;
+  height: 3.25rem;
+}
+
 .history .content {
   margin: 10%;
 }
@@ -9044,4 +9056,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 .history .content .subtitle {
   margin-bottom: 10%;
+}
+
+.page-footer footer .content .socials {
+  font-size: 2rem;
 }
