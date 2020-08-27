@@ -6945,3 +6945,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .about .subtitle {
     text-align: center;
     font-size: 1.125rem; }
+
+.latest {
+  margin: 5%; }
+  .latest .content .card {
+    margin-bottom: 5%; }
+  .latest .content .subtitle {
+    margin: 5%;
+    text-align: center;
+    font-size: 1.125rem; }

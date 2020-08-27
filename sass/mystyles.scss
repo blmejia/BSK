@@ -38,7 +38,7 @@ $input-shadow: none;
         align-items: center;
     }
 }
-
+/////////////////
 .bg{
     //background-color: red;
     height: 80vh;
@@ -49,7 +49,7 @@ $input-shadow: none;
     url('/img/oz.jpg');
     background-position: left 0px top 60px;
 }
-
+///////////////////////
 .about{
     display: flex;
     justify-content: center;
@@ -63,4 +63,21 @@ $input-shadow: none;
         text-align: center;
         font-size: 1.125rem
     }
+}
+////////////////////
+
+.latest{
+    margin: 5%;
+
+    .content{
+        .card{
+            margin-bottom: 5%;
+        }
+        .subtitle{
+            margin: 5%;
+            text-align: center;
+            font-size: 1.125rem;
+        }
+    }
+
 }
