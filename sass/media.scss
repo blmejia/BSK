@@ -51,3 +51,21 @@ $input-shadow: none;
         }
     }
 }
+
+.media{
+    display: flex;
+    margin: 5%;
+    height: auto;
+    width: auto;
+
+    .content{
+        margin: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            padding-bottom: 10%;
+            height: 256px;
+            width: fit-content;
+        }
+    }
+}

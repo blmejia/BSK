@@ -9049,3 +9049,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .page-footer footer .content .socials {
   font-size: 2rem;
 }
+
+.media {
+  display: flex;
+  margin: 5%;
+  height: auto;
+  width: auto;
+}
+.media .content {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.media .content img {
+  padding-bottom: 10%;
+  height: 256px;
+  width: fit-content;
+}
