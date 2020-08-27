@@ -36,6 +36,12 @@ $input-shadow: none;
     .navbar-brand{
         display: flex;
         align-items: center;
+        .navbar-item{
+            img{
+                width: 12.5rem;
+                height: 3.25rem;
+            }
+        }
     }
 }
 /////////////////
