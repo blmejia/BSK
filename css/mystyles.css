@@ -6974,3 +6974,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       border: 2px solid #fff; }
     .spotlight .content p {
       color: #fff; }
+
+.page-footer footer .content .socials {
+  font-size: 2rem; }
