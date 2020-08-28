@@ -9141,3 +9141,72 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.125rem;
   }
 }
+.nav-desktop {
+  width: 100%;
+  background-color: white;
+}
+.nav-desktop nav {
+  margin-left: 15%;
+  width: 70%;
+}
+.nav-desktop nav .navbar-brand .navbar-item img {
+  width: 12.5rem;
+  height: 3.25rem;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/line.jpg");
+  background-position: 0;
+}
+.hero .hero-body .container {
+  display: flex;
+  align-items: flex-end;
+  height: 15vh;
+}
+.desktop-about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5% 15% 5% 15%;
+  height: auto;
+  width: auto;
+}
+.desktop-about .subtitle {
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.desktop-latest {
+  margin: 5% 20% 5% 20%;
+}
+.desktop-latest .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.desktop-latest .content .title {
+  height: fit-content;
+  width: 100%;
+}
+.desktop-latest .content .card {
+  width: 40%;
+  height: fit-content;
+}
+.desktop-latest .content .subtitle {
+  margin: 5%;
+  text-align: center;
+  font-size: 1.125rem;
+}
+.desktop-latest .content #oscar {
+  align-self: flex-end;
+  margin-left: 60%;
+}
+
+.desktop-spotlight {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.desktop-spotlight .content {
+  width: 30%;
+}
