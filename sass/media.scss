@@ -120,3 +120,54 @@ $input-shadow: none;
     }
 }
 ///END OF TABLET QUERY
+
+
+///DESKTOP SYTLES
+
+.nav-desktop{
+    width: 100%;
+    background-color: white;
+    nav{
+        margin-left: 15%;
+      //  background-color: purple;
+        width: 70%;
+        .navbar-brand{
+          //  background-color:red;
+            
+            
+            
+            //align-items: center;
+            .navbar-item{
+                img{
+                    width: 12.5rem;
+                    height: 3.25rem;
+                }
+            }
+          
+        }
+    }
+}
+
+.desktop-media{
+      // background-color: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15%;
+      height: auto;
+      width: 50%;
+  
+      .content{
+         
+        //  background-color: red;
+          margin: 5%;
+          display: flex;
+          flex-wrap: wrap;
+          width: 60%;
+          img{
+              padding-bottom: 10%;
+              height: 20rem;
+              width: fit-content;
+          }
+      }
+}

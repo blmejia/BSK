@@ -9092,3 +9092,36 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     margin-bottom: 10%;
   }
 }
+.nav-desktop {
+  width: 100%;
+  background-color: white;
+}
+.nav-desktop nav {
+  margin-left: 15%;
+  width: 70%;
+}
+.nav-desktop nav .navbar-brand .navbar-item img {
+  width: 12.5rem;
+  height: 3.25rem;
+}
+
+.desktop-history {
+  margin: 5% 25% 5% 25%;
+}
+.desktop-history .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10%;
+}
+.desktop-history .content .title {
+  width: 100%;
+}
+.desktop-history .content img {
+  height: 256px;
+  width: 60%;
+  margin-bottom: 10%;
+}
+.desktop-history .content .subtitle {
+  margin-bottom: 10%;
+}

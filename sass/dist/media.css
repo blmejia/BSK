@@ -9102,3 +9102,35 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     width: fit-content;
   }
 }
+.nav-desktop {
+  width: 100%;
+  background-color: white;
+}
+.nav-desktop nav {
+  margin-left: 15%;
+  width: 70%;
+}
+.nav-desktop nav .navbar-brand .navbar-item img {
+  width: 12.5rem;
+  height: 3.25rem;
+}
+
+.desktop-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15%;
+  height: auto;
+  width: 50%;
+}
+.desktop-media .content {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.desktop-media .content img {
+  padding-bottom: 10%;
+  height: 20rem;
+  width: fit-content;
+}

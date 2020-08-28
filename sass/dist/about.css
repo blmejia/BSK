@@ -9131,3 +9131,37 @@ span {
     text-align: left;
   }
 }
+.nav-desktop {
+  width: 100%;
+  background-color: white;
+}
+.nav-desktop nav {
+  margin-left: 15%;
+  width: 70%;
+}
+.nav-desktop nav .navbar-brand .navbar-item img {
+  width: 12.5rem;
+  height: 3.25rem;
+}
+
+.desktop-about {
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 5% 25% 5% 25%;
+}
+.desktop-about .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.desktop-about .content .paragraph {
+  margin: 5%;
+}
+.desktop-about .content .paragraph .title {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.desktop-about .content .paragraph .subtitle {
+  font-size: 1.125rem;
+  text-align: left;
+}
