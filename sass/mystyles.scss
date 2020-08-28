@@ -92,25 +92,34 @@ $input-shadow: none;
 
 .spotlight{
     display: flex;
+    justify-content: center;
     height: auto;
     width: auto;
     margin: 5%;
     background-color: $deepgrey;
 
     .content{
+       // background-color: red;
         margin: 5%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        width: 70%;
         img{
+           
             border-radius: 50%;
-            width: 16rem;
-            height: 16rem;
+            width: 14rem;
+            height: 14rem;
             margin: 5%;
             border: 2px solid #fff;
         }
         p{
+           // background-color: purple;
+            text-align: center;
             color: #fff;
+        }
+        .title{
+            height: fit-content;
         }
     }
 }

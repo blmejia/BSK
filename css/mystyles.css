@@ -6960,6 +6960,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .spotlight {
   display: flex;
+  justify-content: center;
   height: auto;
   width: auto;
   margin: 5%;
@@ -6968,15 +6969,19 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     margin: 5%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    width: 70%; }
     .spotlight .content img {
       border-radius: 50%;
-      width: 16rem;
-      height: 16rem;
+      width: 14rem;
+      height: 14rem;
       margin: 5%;
       border: 2px solid #fff; }
     .spotlight .content p {
+      text-align: center;
       color: #fff; }
+    .spotlight .content .title {
+      height: fit-content; }
 
 .page-footer footer .content .socials {
   font-size: 2rem; }
