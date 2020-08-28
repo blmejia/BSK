@@ -9119,18 +9119,24 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15%;
+  margin: 5% 12% 5% 12%;
   height: auto;
-  width: 50%;
+  width: auto;
 }
 .desktop-media .content {
+  display: flex;
+  justify-content: center;
   margin: 5%;
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: auto;
+}
+.desktop-media .content .title {
+  width: 100%;
 }
 .desktop-media .content img {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+  margin-left: 5%;
   height: 20rem;
-  width: fit-content;
+  width: 300px;
 }

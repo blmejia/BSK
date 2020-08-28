@@ -149,25 +149,32 @@ $input-shadow: none;
 }
 
 .desktop-media{
-      // background-color: blue;
+     // background-color: blue;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 15%;
+      margin: 5% 12% 5% 12%;
       height: auto;
-      width: 50%;
+      width: auto;
   
+
+
       .content{
-         
-        //  background-color: red;
+          display: flex;
+          justify-content: center;
+         .title{
+             width: 100%;
+         }
+         //background-color: red;
           margin: 5%;
           display: flex;
           flex-wrap: wrap;
-          width: 60%;
+          width: auto;
           img{
-              padding-bottom: 10%;
+              padding-bottom: 5%;
+              margin-left: 5%;
               height: 20rem;
-              width: fit-content;
+              width: 300px;
           }
       }
 }
