@@ -71,11 +71,30 @@ $input-shadow: none;
         }
     }
 }
-
+//TABLET QUERY ONLY
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    .navbar{
+        margin-bottom: 0;
+        .navbar-brand{
+            margin-left: 5%;
+            margin-right: 5%;
+            display: flex;
+            align-items: center;
+            .navbar-item{
+                img{
+                    width: 12.5rem;
+                    height: 3.25rem;
+                }
+            }
+        }
+    }
+
+
     .media{
        // background-color: blue;
         display: flex;
@@ -100,3 +119,4 @@ $input-shadow: none;
         }
     }
 }
+///END OF TABLET QUERY

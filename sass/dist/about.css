@@ -9093,3 +9093,41 @@ span {
   font-weight: 400;
   color: black;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  .navbar .navbar-brand {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+  }
+  .navbar .navbar-brand .navbar-item img {
+    width: 12.5rem;
+    height: 3.25rem;
+  }
+
+  .about {
+    display: flex;
+    height: auto;
+    width: auto;
+    margin: 5% 10% 5% 10%;
+  }
+  .about .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about .content .paragraph {
+    margin: 5%;
+  }
+  .about .content .paragraph .title {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .about .content .paragraph .subtitle {
+    font-size: 1.125rem;
+    text-align: left;
+  }
+}

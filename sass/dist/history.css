@@ -9061,3 +9061,34 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .page-footer footer .content .socials {
   font-size: 2rem;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  .navbar .navbar-brand {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+  }
+  .navbar .navbar-brand .navbar-item img {
+    width: 12.5rem;
+    height: 3.25rem;
+  }
+
+  .history {
+    margin: 10%;
+  }
+  .history .content {
+    margin: 10%;
+  }
+  .history .content img {
+    height: 256px;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .history .content .subtitle {
+    margin-bottom: 10%;
+  }
+}

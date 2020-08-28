@@ -9068,6 +9068,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  .navbar .navbar-brand {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+  }
+  .navbar .navbar-brand .navbar-item img {
+    width: 12.5rem;
+    height: 3.25rem;
+  }
+
   .media {
     display: flex;
     justify-content: center;
