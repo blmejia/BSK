@@ -9046,7 +9046,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 .navbar .navbar-brand .navbar-item img {
   width: 12.5rem;
-  height: 3.25rem;
+  height: 3.75rem !important;
 }
 
 .bg {

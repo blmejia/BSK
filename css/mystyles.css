@@ -6930,7 +6930,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       height: 62px !important; }
       .navbar .navbar-brand .navbar-item img {
         width: 12.5rem;
-        height: 3.25rem; }
+        height: 3.75rem !important; }
 
 .bg {
   height: 80vh;
