@@ -6926,11 +6926,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .navbar .navbar-brand {
     display: flex;
     align-items: center; }
-    .navbar .navbar-brand .navbar-item {
-      height: 62px !important; }
-      .navbar .navbar-brand .navbar-item img {
-        width: 12.5rem;
-        height: 3.75rem !important; }
+    .navbar .navbar-brand .navbar-item img {
+      width: 12.5rem;
+      height: 3.25rem; }
 
 .bg {
   height: 80vh;
