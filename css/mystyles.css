@@ -7000,11 +7000,35 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .latest {
     margin: 5% 15% 5% 15%; }
     .latest .content .card {
-      margin-bottom: 5%; }
+      margin: 0% 15% 5% 15%; }
     .latest .content .subtitle {
       margin: 5%;
       text-align: center;
-      font-size: 1.125rem; } }
+      font-size: 1.125rem; }
+  .spotlight {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 5%;
+    background-color: #212121; }
+    .spotlight .content {
+      margin: 5%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 70%; }
+      .spotlight .content img {
+        border-radius: 50%;
+        width: 14rem;
+        height: 14rem;
+        margin: 5%;
+        border: 2px solid #fff; }
+      .spotlight .content p {
+        text-align: center;
+        color: #fff; }
+      .spotlight .content .title {
+        height: fit-content; } }
 
 .nav-desktop {
   width: 100%;
