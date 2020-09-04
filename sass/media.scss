@@ -96,7 +96,7 @@ $input-shadow: none;
 
 
     .media{
-       // background-color: blue;
+        background-color: blue;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -106,11 +106,20 @@ $input-shadow: none;
     
         .content{
            
-          //  background-color: red;
+             background-color: red;
             margin: 5%;
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             width: 60%;
+
+           
+                .title{
+                    display: flex;
+                    margin: 5%;
+                }
+            
+
             img{
                 padding-bottom: 10%;
                 height: 20rem;
@@ -149,7 +158,7 @@ $input-shadow: none;
 }
 
 .desktop-media{
-     // background-color: blue;
+     //background-color: blue;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -161,20 +170,36 @@ $input-shadow: none;
 
       .content{
           display: flex;
-          justify-content: center;
-         .title{
-             width: 100%;
-         }
-         //background-color: red;
-          margin: 5%;
+          //justify-content: space-evenly;
+
+          .title-wrap{
+              display: flex;
+              //background-color: pink;
+              width: auto;
+              margin: 0% 0% 5% 15%;
+            .title{          
+               //background-color: green;
+                width: 100%;
+            }
+          }
+         
+          //  background-color: red;
+          margin: 0%;
           display: flex;
           flex-wrap: wrap;
           width: auto;
-          img{
-              padding-bottom: 5%;
-              margin-left: 5%;
-              height: 20rem;
-              width: 300px;
+
+          .images{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+            img{
+                padding-bottom: 5%;
+                margin-left: 5%;
+                height: 20rem;
+                width: 300px;
+            }
           }
+        
       }
 }

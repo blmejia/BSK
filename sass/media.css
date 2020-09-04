@@ -11423,6 +11423,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     height: 3.25rem;
   }
   .media {
+    background-color: blue;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11437,13 +11438,23 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     width: auto;
   }
   .media .content {
+    background-color: red;
     margin: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 60%;
+  }
+  .media .content .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5%;
   }
   .media .content img {
     padding-bottom: 10%;
@@ -11488,21 +11499,37 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 5%;
+  margin: 0%;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: auto;
 }
 
-.desktop-media .content .title {
+.desktop-media .content .title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  margin: 0% 0% 5% 15%;
+}
+
+.desktop-media .content .title-wrap .title {
   width: 100%;
 }
 
-.desktop-media .content img {
+.desktop-media .content .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.desktop-media .content .images img {
   padding-bottom: 5%;
   margin-left: 5%;
   height: 20rem;
