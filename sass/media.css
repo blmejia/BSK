@@ -11423,7 +11423,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     height: 3.25rem;
   }
   .media {
-    background-color: blue;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11438,7 +11437,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     width: auto;
   }
   .media .content {
-    background-color: red;
     margin: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
