@@ -187,11 +187,23 @@ $input-shadow: none;
 
 ////////////////////////////////
     .latest{
-        margin: 5% 15% 5% 15%;
+        margin: 2%;
+
+        display: flex;
+        justify-content: center;
+       // background-color: red;
     
         .content{
+            margin-left: 7%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            p{
+                width: 100%;
+            }
             .card{
-                margin: 0% 15% 5% 15%;
+                margin-right: 5%;
+                width: 300px;
             }
             .subtitle{
                 margin: 5%;

@@ -11516,10 +11516,31 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     height: 3.25rem;
   }
   .latest {
-    margin: 5% 15% 5% 15%;
+    margin: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .latest .content {
+    margin-left: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .latest .content p {
+    width: 100%;
   }
   .latest .content .card {
-    margin: 0% 15% 5% 15%;
+    margin-right: 5%;
+    width: 300px;
   }
   .latest .content .subtitle {
     margin: 5%;
