@@ -229,10 +229,12 @@ $input-shadow: none;
     width: 100%;
     background-color: white;
     nav{
-        margin-left: 15%;
+        
       //  background-color: purple;
-        width: 70%;
+        width: 100%;
         .navbar-brand{
+            margin-left: 15%;
+            
           //  background-color:red;
             
             
@@ -245,6 +247,11 @@ $input-shadow: none;
                 }
             }
           
+        }
+        .navbar-menu{
+         //   background-color: red;
+            width: 100%;
+            margin-right: 100%;
         }
     }
 }
@@ -298,23 +305,31 @@ url('/img/line.jpg');
 ////////////////////////////////////
 .desktop-latest{
     margin: 5% 20% 5% 20%;
-    //background-color: red;
+  // background-color: red;
+   display: flex;
+   align-items: center;
+   height: 90vh;
+   
     .content{
-        //margin: 0;
-        display: flex;
-        flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: fit-content;
+      flex-wrap: wrap;
+     // background-color: green;
+    
 
         .title{
-            //background-color: blue;
+          //  background-color: blue;
             height: fit-content;
             width: 100%;
         }
         .card{
-          //  background-color: purple;
+         //  background-color: purple;
           
-            width: 40%;
+            width: 30%;
             
-            height: fit-content;
+            height: 500px;
         }
 
 
@@ -326,8 +341,7 @@ url('/img/line.jpg');
         }
 
         #oscar{
-            align-self: flex-end;
-            margin-left: 60%;
+            
         }
     }
 
@@ -336,8 +350,8 @@ url('/img/line.jpg');
 ///////////////////////////////////////////
 
 .desktop-spotlight{
-    margin-left: 25%;
-    margin-right: 25%;
+  //  background-color: red;
+    
     .content{
         //background-color: purple;
         width: 30%;

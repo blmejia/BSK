@@ -7034,11 +7034,15 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   width: 100%;
   background-color: white; }
   .nav-desktop nav {
-    margin-left: 15%;
-    width: 70%; }
-    .nav-desktop nav .navbar-brand .navbar-item img {
-      width: 12.5rem;
-      height: 3.25rem; }
+    width: 100%; }
+    .nav-desktop nav .navbar-brand {
+      margin-left: 15%; }
+      .nav-desktop nav .navbar-brand .navbar-item img {
+        width: 12.5rem;
+        height: 3.25rem; }
+    .nav-desktop nav .navbar-menu {
+      width: 100%;
+      margin-right: 100%; }
 
 .hero {
   background-repeat: no-repeat;
@@ -7062,26 +7066,26 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.125rem; }
 
 .desktop-latest {
-  margin: 5% 20% 5% 20%; }
+  margin: 5% 20% 5% 20%;
+  display: flex;
+  align-items: center;
+  height: 90vh; }
   .desktop-latest .content {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
     flex-wrap: wrap; }
     .desktop-latest .content .title {
       height: fit-content;
       width: 100%; }
     .desktop-latest .content .card {
-      width: 40%;
-      height: fit-content; }
+      width: 30%;
+      height: 500px; }
     .desktop-latest .content .subtitle {
       margin: 5%;
       text-align: center;
       font-size: 1.125rem; }
-    .desktop-latest .content #oscar {
-      align-self: flex-end;
-      margin-left: 60%; }
 
-.desktop-spotlight {
-  margin-left: 25%;
-  margin-right: 25%; }
-  .desktop-spotlight .content {
-    width: 30%; }
+.desktop-spotlight .content {
+  width: 30%; }
