@@ -304,15 +304,18 @@ url('/img/line.jpg');
 
 ////////////////////////////////////
 .desktop-latest{
-    margin: 5% 20% 5% 20%;
-  // background-color: red;
+    //margin: 5% 20% 5% 20%;
+    
+  //background-color: red;
    display: flex;
    align-items: center;
+   justify-content: center;
+   //width: 80%;
    height: 90vh;
    
     .content{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       width: 100%;
       height: fit-content;
       flex-wrap: wrap;
@@ -320,14 +323,15 @@ url('/img/line.jpg');
     
 
         .title{
-          //  background-color: blue;
-            height: fit-content;
+          // background-color: blue;
+           // height: fit-content;
             width: 100%;
+            text-align: center;
         }
         .card{
          //  background-color: purple;
           
-            width: 30%;
+            width: 400px;
             
             height: 500px;
             img{
@@ -355,9 +359,57 @@ url('/img/line.jpg');
 
 .desktop-spotlight{
   //  background-color: red;
+  display: flex;
+  justify-content: center;
     
     .content{
+        //background-color: blue;
+        display: flex;
+        justify-content: center;
+        p{
+            text-align: center;
+        }
         //background-color: purple;
-        width: 30%;
+        width: 20%;
+    }
+}
+/////////////////////////////////////@at-root
+
+
+.desktop-articles{
+    margin: 5% 20% 5% 20%;
+    display: flex;
+    width: auto;
+   // height: 50vh;
+    //background-color: red;
+
+    .title{
+        align-self: flex-end;
+        text-align: right;
+    }
+    .card-s{
+        display: flex;
+        justify-content: space-between;
+        //flex-wrap: wrap;
+        align-items: center;
+
+        .card{
+            width: 100%;
+            margin-left: 2%;
+
+            .author{
+                
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    margin-right: 5%;
+                }
+            }
+          
+        }
     }
 }

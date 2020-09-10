@@ -7066,21 +7066,21 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.125rem; }
 
 .desktop-latest {
-  margin: 5% 20% 5% 20%;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 90vh; }
   .desktop-latest .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     height: fit-content;
     flex-wrap: wrap; }
     .desktop-latest .content .title {
-      height: fit-content;
-      width: 100%; }
+      width: 100%;
+      text-align: center; }
     .desktop-latest .content .card {
-      width: 30%;
+      width: 400px;
       height: 500px; }
       .desktop-latest .content .card img {
         height: 250px;
@@ -7090,5 +7090,36 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       text-align: center;
       font-size: 1.125rem; }
 
-.desktop-spotlight .content {
-  width: 30%; }
+.desktop-spotlight {
+  display: flex;
+  justify-content: center; }
+  .desktop-spotlight .content {
+    display: flex;
+    justify-content: center;
+    width: 20%; }
+    .desktop-spotlight .content p {
+      text-align: center; }
+
+.desktop-articles {
+  margin: 5% 20% 5% 20%;
+  display: flex;
+  width: auto; }
+  .desktop-articles .title {
+    align-self: flex-end;
+    text-align: right; }
+  .desktop-articles .card-s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .desktop-articles .card-s .card {
+      width: 100%;
+      margin-left: 2%; }
+      .desktop-articles .card-s .card .author {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap; }
+        .desktop-articles .card-s .card .author img {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          margin-right: 5%; }
