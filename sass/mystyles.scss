@@ -30,7 +30,6 @@ $input-shadow: none;
 
 
 
-
 .navbar{
     margin-bottom: 0;
     .navbar-brand{
@@ -169,11 +168,17 @@ $input-shadow: none;
   and (-webkit-min-device-pixel-ratio: 1) {
 
 //////////////////////////////
+
+body{
+    overflow-x: hidden;
+}
+
     .navbar{
         margin-bottom: 0;
+        width: 100%;
         .navbar-brand{
-            margin-left: 5%;
-            margin-right: 5%;
+            //margin-left: 5%;
+            //margin-right:100%;
             display: flex;
             align-items: center;
             .navbar-item{
@@ -187,14 +192,13 @@ $input-shadow: none;
 
 ////////////////////////////////
     .latest{
-        margin: 2%;
-
+       
         display: flex;
         justify-content: center;
-       // background-color: red;
+      // background-color: red;
     
         .content{
-            margin-left: 7%;
+          //  margin-left: 7%;
             display: flex;
             flex-wrap: wrap;
             justify-content: start;
