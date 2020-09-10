@@ -7082,6 +7082,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     .desktop-latest .content .card {
       width: 30%;
       height: 500px; }
+      .desktop-latest .content .card img {
+        height: 250px;
+        width: fit-content; }
     .desktop-latest .content .subtitle {
       margin: 5%;
       text-align: center;

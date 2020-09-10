@@ -11635,6 +11635,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   height: 500px;
 }
 
+.desktop-latest .content .card img {
+  height: 250px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .desktop-latest .content .subtitle {
   margin: 5%;
   text-align: center;

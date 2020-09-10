@@ -330,6 +330,10 @@ url('/img/line.jpg');
             width: 30%;
             
             height: 500px;
+            img{
+                height: 250px;
+                width: fit-content;
+            }
         }
 
 
