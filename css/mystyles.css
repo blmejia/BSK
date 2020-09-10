@@ -6983,6 +6983,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     .spotlight .content .title {
       height: fit-content; }
 
+.blog {
+  display: flex; }
+  .blog .content {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap; }
+    .blog .content p {
+      text-align: right; }
+    .blog .content .card-s {
+      display: flex;
+      flex-wrap: wrap; }
+      .blog .content .card-s .card {
+        margin-bottom: 5%; }
+
 .page-footer footer .content .socials {
   font-size: 2rem; }
 

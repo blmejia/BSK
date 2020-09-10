@@ -126,7 +126,30 @@ $input-shadow: none;
 }
 
 ///////////////////////
+.blog{
+    display: flex;
 
+    .content{
+        margin: 5%;
+        display: flex;
+        flex-wrap: wrap;
+
+        p{
+            text-align: right;
+        }
+        .card-s{
+            display: flex;
+            flex-wrap: wrap;
+
+            .card{
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
+
+////////////////////
 .page-footer{
     footer{
         .content{
