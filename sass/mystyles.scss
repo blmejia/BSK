@@ -28,7 +28,9 @@ $input-shadow: none;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/bulma.sass";
 
-
+body{
+    overflow-x: hidden;
+}
 
 .navbar{
     margin-bottom: 0;
@@ -167,7 +169,7 @@ $input-shadow: none;
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-//////////////////////////////
+///////////////////////////////
 
 body{
     overflow-x: hidden;
